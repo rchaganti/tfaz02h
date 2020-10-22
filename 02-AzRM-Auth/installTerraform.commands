@@ -1,0 +1,20 @@
+# Good'ol way! 
+https://www.terraform.io/downloads.html
+
+# On Windows using Chocolatey
+choco install terraform
+
+# On Windows, using PowerShell
+.\downloadTerraform.ps1 -SaveToPath C:\Tools -Latest
+
+# On mac, using brew
+brew install terraform
+
+# On Ubuntu
+apt-get install unzip wget
+wget https://releases.hashicorp.com/terraform/0.13.4/terraform_0.13.4_linux_amd64.zip
+unzip terraform_0.12.6_linux_amd64.zip terraform
+mv terraform /usr/local/bin/
+
+# verify terraform install
+terraform version

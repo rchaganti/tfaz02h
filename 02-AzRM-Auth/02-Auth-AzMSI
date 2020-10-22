@@ -1,0 +1,3 @@
+$env:ARM_USE_MSI = $true
+$env:ARM_SUBSCRIPTION_ID = '159f2485-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
+$env:ARM_TENANT_ID = '72f988bf-xxxx-xxxx-xxxx-xxxxxxxxxxxx' 

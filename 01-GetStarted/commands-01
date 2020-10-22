@@ -1,0 +1,10 @@
+# Initialize terraform configuration
+terraform init
+
+# Generate an execution plan
+terraform plan
+terraform plan -out getstarted.tfplan
+
+# Apply
+terraform apply
+terraform apply getstarted.tfplan

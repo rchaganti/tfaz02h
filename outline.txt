@@ -1,0 +1,31 @@
+#1. Infrastructure As Code (IaC) and Why Terraform?
+
+#2. Introduction and Getting Started with Terraform?
+        - Install
+        - Terraform Concepts (HCL, Execution Plans, resource graph, State, Providers -- Resources / Data Sources, Variables, Outputs)
+        - First Configuration
+        - Terraform workflow
+        - Adding Variables
+        - Adding Data Sources
+        - Adding Output
+
+#3. Terraform with Azure - Authentication
+	- AzureRm Provider
+        - AzCli
+	- Az SP Secret
+	- Az SP Certificate
+	- Az MSI
+
+#4. Terrafrom with Azure - Get Started
+
+#5. Functions, Conditions, and Loops
+
+#6. Terraform with Azure - Modules
+
+#7. Terraform with Azure - Workspaces
+
+#8. Terraform with Azure - Backend
+
+#9. Terraform with Azure - Testing
+
+#10. Terraform with Azure - CI and CD

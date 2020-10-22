@@ -1,0 +1,13 @@
+provider "azurerm" {
+  version         = "~> 2.32.0"
+
+  features {}
+}
+
+resource "azurerm_resource_group" "tfgroup" {
+  name     = "tfresourcegroup"
+  location = "eastus"
+  tags = {
+    Owner = "Ravikanth Chaganti"
+  }
+}

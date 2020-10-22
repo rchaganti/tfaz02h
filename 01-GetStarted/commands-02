@@ -1,0 +1,16 @@
+terraform init
+terraform plan -out local.tfplan
+
+# Specify the variable value
+terraform plan --var "filePath=firstConfig.txt"
+
+# Apply will prompt since the plan was not saved locally
+# terraform plan --var "filePath=firstConfig.txt" -out="local.tfplan"
+terraform apply --auto-approve
+
+# you can use a tfvars file for variable values
+terraform plan -var-file="terraform.tfvars.rename" -out="local.tfplan"
+
+# Variables can be retrieved from environment as well - Only string type variables
+$env:TF_VAR_fileContent = "This is a test from terraform"
+$env:TF_VAR_filePath = "firstConfig.txt"

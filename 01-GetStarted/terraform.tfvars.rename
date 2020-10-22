@@ -1,0 +1,3 @@
+fileContent = "Hello from Terraform"
+
+filePath = "firstConfig.txt"
