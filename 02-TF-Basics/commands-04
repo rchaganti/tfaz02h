@@ -1,0 +1,3 @@
+# generate a graph
+terraform graph
+dot -Tpng c:\certs\local.dot -oqueue.png

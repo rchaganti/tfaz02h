@@ -1,0 +1,5 @@
+terraform init
+terraform plan -out local.tfplan
+
+# Specify the variable value
+terraform plan --var "filePath=firstConfig.txt"

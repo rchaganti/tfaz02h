@@ -1,0 +1,12 @@
+# Show current workspace
+terraform workspace show
+
+# show all workspaces
+terraform workspace list
+
+# Create a new workspace
+terraform workspace new production
+terraform workspace new staging
+
+# change the workspace
+terraform workspace select production

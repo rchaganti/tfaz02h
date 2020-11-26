@@ -1,0 +1,16 @@
+provider "azurerm" {
+  version         = "~> 2.32.0"
+  subscription_id = "5073fd4c-"
+  tenant_id       = "e8492068-"
+  
+  use_msi         = true
+  features {}
+}
+
+resource "azurerm_resource_group" "tfgroup" {
+  name     = "tfresourcegroup"
+  location = "eastus"
+  tags = {
+    Owner = "Ravikanth Chaganti"
+  }
+}
