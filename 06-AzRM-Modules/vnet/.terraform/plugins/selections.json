@@ -1,0 +1,6 @@
+{
+  "registry.terraform.io/hashicorp/azurerm": {
+    "hash": "h1:5SewWjo/pMUD0O/LaVv66jgIJ3oN60SG0OJiGJr3uGE=",
+    "version": "2.37.0"
+  }
+}

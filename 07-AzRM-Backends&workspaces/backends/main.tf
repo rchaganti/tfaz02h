@@ -20,7 +20,7 @@ provider "azure" {
 }
 
 resource "azurerm_resource_group" "demorg" {
-  name     = "tfdemorg"
+  name     = "tfdemorg10"
   location = "West Europe"
 }
 

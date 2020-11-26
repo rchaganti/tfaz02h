@@ -13,6 +13,6 @@ resource "local_file" "myFirstConfig" {
 }
 
 resource "local_file" "mySecondConfig" {
-  content = "testcontent - Update"
+  content = local_file.myFirstConfig.id
   filename = local.secondFile
 }

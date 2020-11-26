@@ -23,13 +23,11 @@ provider "azure" {
   tenant_id       = "e8492068-d56c-42d8-8bed-f978a9a74d8e"
 }
 
-locals {
-    prefix = terraform.workspace
-}
+locals {prefix = terraform.workspace}
 
 resource "azurerm_resource_group" "demorg" {
-  name     = "${local.prefix}rg"
-  location = "West Europe"
+name     = "${local.prefix}rg"
+location = "West Europe"
 }
 
 resource "azurerm_virtual_network" "vnet" {

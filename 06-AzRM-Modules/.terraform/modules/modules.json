@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"windows-client","Source":"./modules/windows-client","Dir":"modules/windows-client"},{"Key":"","Source":"","Dir":"."},{"Key":"active-directory-domain","Source":"./modules/active-directory","Dir":"modules/active-directory"},{"Key":"network","Source":"./modules/network","Dir":"modules/network"}]}

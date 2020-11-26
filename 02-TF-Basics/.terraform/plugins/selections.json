@@ -1,0 +1,6 @@
+{
+  "registry.terraform.io/hashicorp/local": {
+    "hash": "h1:SlDBzk4mI74zgQY9JgNygoI2WRJ4ZIgCN3IkWRon2Ng=",
+    "version": "2.0.0"
+  }
+}

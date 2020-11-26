@@ -1,2 +1,6 @@
 
 ~$Terraform-with-azure.pptx
+*.exe
+*.tfstate
+*.tfplan
+*.backup

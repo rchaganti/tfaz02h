@@ -1,1 +1,1 @@
-az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/<SUB-ID>>" --sdk-auth
+az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/5073fd4c-3a1b-4559-8371-21e034f70820" --sdk-auth
